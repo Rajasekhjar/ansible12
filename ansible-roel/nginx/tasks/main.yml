@@ -1,3 +1,6 @@
-#SPDX-License-Identifier: MIT-0
----
-# tasks file for nginx
+Name:install Nginx
+Hosts: Appserver
+tasks:
+   - name: install Nginx
+     zypper: 
+      
