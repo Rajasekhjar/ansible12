@@ -1,6 +1,12 @@
-Name:install Nginx
-Hosts: Appserver
-tasks:
-   - name: install Nginx
-     zypper: 
+---
+- name: Install nginx package
+  package:
+    name: nginx
+    state: present
+
+- name: Start nginx service
+  service:
+    name: nginx
+    state: started
+    enabled: true
       
