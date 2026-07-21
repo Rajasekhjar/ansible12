@@ -1,0 +1,22 @@
+Filesystem     Type      Size  Used Avail Use% Mounted on
+/dev/nvme0n1p3 btrfs      10G  2.5G  7.2G  26% /
+devtmpfs       devtmpfs  4.0M     0  4.0M   0% /dev
+tmpfs          tmpfs     458M     0  458M   0% /dev/shm
+efivarfs       efivarfs  128K  2.9K  121K   3% /sys/firmware/efi/efivars
+tmpfs          tmpfs     184M  528K  183M   1% /run
+tmpfs          tmpfs     458M     0  458M   0% /tmp
+tmpfs          tmpfs     1.0M     0  1.0M   0% /run/credentials/systemd-journald.service
+/dev/nvme0n1p3 btrfs      10G  2.5G  7.2G  26% /boot/grub2/i386-pc
+/dev/nvme0n1p3 btrfs      10G  2.5G  7.2G  26% /.snapshots
+/dev/nvme0n1p3 btrfs      10G  2.5G  7.2G  26% /boot/writable
+/dev/nvme0n1p3 btrfs      10G  2.5G  7.2G  26% /opt
+/dev/nvme0n1p3 btrfs      10G  2.5G  7.2G  26% /home
+/dev/nvme0n1p3 btrfs      10G  2.5G  7.2G  26% /boot/grub2/x86_64-efi
+/dev/nvme0n1p3 btrfs      10G  2.5G  7.2G  26% /usr/local
+/dev/nvme0n1p3 btrfs      10G  2.5G  7.2G  26% /var
+/dev/nvme0n1p3 btrfs      10G  2.5G  7.2G  26% /srv
+/dev/nvme0n1p3 btrfs      10G  2.5G  7.2G  26% /root
+/dev/nvme0n1p2 vfat       20M  4.0M   17M  20% /boot/efi
+tmpfs          tmpfs     1.0M     0  1.0M   0% /run/credentials/getty@tty1.service
+tmpfs          tmpfs     1.0M     0  1.0M   0% /run/credentials/serial-getty@ttyS0.service
+tmpfs          tmpfs      92M  8.0K   92M   1% /run/user/1000
